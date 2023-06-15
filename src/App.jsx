@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './index.css'
 
 // Write your Color component here
-const Color = (props, setSelectedColor) => {
+const Color = ({color, setSelectedColor}) => {
 
   return (
     <div 
-      className={props.color}
-      onClick={() => setSelectedColor(props)}
+      className={color}
+      onClick={() => setSelectedColor(color)}
     ></div>
   )
 }
