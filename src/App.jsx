@@ -3,7 +3,7 @@ import './index.css'
 
 // Write your Color component here
 const Color = ({color, setSelectedColor}) => {
-
+//return
   return (
     <div 
       className={color}
